@@ -1,0 +1,61 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    
+    border-collapse: collapse;
+    
+  }
+  
+  thead th:nth-child(1) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th,
+  td {
+    padding: 20px;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: #f9caed;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f8d4f8;
+  }
+  
+  
+  
+  table {
+    background-color: #ebd1e4;
+  }
+  thead th,
+tfoot th {
+  font-family: "Rock Salt", cursive;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}

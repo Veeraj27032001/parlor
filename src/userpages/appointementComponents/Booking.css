@@ -1,0 +1,48 @@
+.bookinmodificationcontainer {
+    position: relative;
+  
+    background: #ffffff;
+    width: 90%;
+    height:unset;
+    height: 100%;
+    max-height: 100%;
+    margin-top: 20px;
+    margin-left: 0 auto 5%;
+    background-color:rgba(100,100,100,0);
+    margin-right: 0 auto 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(245, 220, 240, 0.2), 0 5px 5px 0 rgba(249, 188, 225, 0.24);
+  }
+  .bookinginput {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+   width: 40%;
+    border: 0;
+    border-color:#dedcdc ;
+    margin: 0 0 1%;
+    height: 1%;
+    padding: 1%;
+    box-sizing: border-box;
+    font-size: 14px;
+    
+  }
+  .bookingbutton {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #328f8a;
+    background-image: linear-gradient(45deg,#5a3055,#404140);
+    width: 40%;
+    border: 0;
+    height:1%;
+    padding: 1%;
+    margin-top: 1%;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
